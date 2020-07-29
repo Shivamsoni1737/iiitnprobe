@@ -28,8 +28,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">Events</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="TantraFiesta.html">TantraFiesta</a>
+                        <a class="dropdown-item" href="Abhivyakti.html">Abhivyakti</a>
+
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="covid.html">Covid-19</a>
@@ -179,25 +188,237 @@
 
         </div>
     </nav>
-    <div class="copy-right_text">
-        <div class="container">
-            <div class="footer_border"></div>
-            <div class="row align-items-center">
-                <div class="col-xl-8 col-md-8">
-                    <p class="copy_right">
+    
+<!-- Footer -->
+    <footer class="page-footer font-small bg-dark">
 
-                    <div class="container">
-                        <p>© 2020-2021 TheProbe, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-                        <link rel="stylesheet"
-                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Footer Elements -->
+        <html lang="en">
 
-                        <!-- Add font awesome icons -->
-                        <a href="#" class="fa fa-facebook btn-light"></a>
-                        <a href="#" class="fa fa-twitter btn-light"></a>
-                        <a href="#" class="fa fa-instagram btn-light"></a>
-                        <a href="#" class="fa fa-linkedin btn-light"></a>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="apple-touch-icon" type="image/png"
+                href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+            <meta name="apple-mobile-web-app-title" content="CodePen">
+            <link rel="shortcut icon" type="image/x-icon"
+                href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+            <link rel="mask-icon" type=""
+                href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg"
+                color="#111">
+            <title>CodePen - Footer Light</title>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+                /*=========================
+      Icons
+     ================= */
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
 
-                    </div>
+                /* footer social icons */
+                .footer {
+                    background-color: #FAFCFF;
+                    padding: 20px 0;
+                    text-align: center;
+                }
+
+                ul.social-network {
+                    list-style: none;
+                    display: inline;
+                    margin: auto;
+                }
+
+                ul.social-network li {
+                    display: inline;
+                    margin: 0 10px;
+                }
+
+                /* footer social icons */
+                .social-network a.icoFacebook:hover {
+                    background-color: #3B5998;
+                }
+
+                .social-network a.icoTwitter:hover {
+                    background-color: #33ccff;
+                }
+
+                .social-network a.icoMedium:hover {
+                    background-color: #00AB6C;
+                }
+
+                .social-network a.icoGithub:hover {
+                    background-color: #282423;
+                }
+
+                .social-network a.icoLinkedin:hover {
+                    background-color: #007bb7;
+                }
+
+                .social-network a.icoInstagram:hover {
+                    background: #f09433;
+                    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+                    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+                    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+                }
+
+                .social-network a.icoRss:hover i,
+                .social-network a.icoFacebook:hover i,
+                .social-network a.icoTwitter:hover i,
+                .social-network a.icoMedium:hover i,
+                .social-network a.icoVimeo:hover i,
+                .social-network a.icoLinkedin:hover i {
+                    color: #fff;
+                }
+
+                .social-circle li a {
+                    display: inline-block;
+                    position: relative;
+                    margin: 0 auto 0 auto;
+                    -moz-border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                    text-align: center;
+                    width: 60px;
+                    height: 60px;
+                    font-size: 22px;
+                }
+
+                .social-circle li i {
+                    margin: 0;
+                    line-height: 60px;
+                    text-align: center;
+                }
+
+                .social-circle li a:hover i,
+                .triggeredHover {
+                    -moz-transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    -ms--transform: rotate(360deg);
+                    transform: rotate(360deg);
+                    -webkit-transition: all 0.2s;
+                    -moz-transition: all 0.2s;
+                    -o-transition: all 0.2s;
+                    -ms-transition: all 0.2s;
+                    transition: all 0.2s;
+                }
+
+                .social-circle i {
+                    color: #fff;
+                    -webkit-transition: all 0.8s;
+                    -moz-transition: all 0.8s;
+                    -o-transition: all 0.8s;
+                    -ms-transition: all 0.8s;
+                    transition: all 0.8s;
+                }
+
+                .social-circle a {
+                    background-color: #CCD8EA;
+                }
+
+                @media screen and (max-width: 500px) {
+                    ul.social-network li {
+                        display: inline;
+                        margin: 0 5px;
+                    }
+                }
+
+                @media screen and (max-width: 450px) {
+                    ul.social-network li {
+                        display: inline;
+                        margin: 0 5px;
+                    }
+
+                    .social-circle li a {
+                        display: inline-block;
+                        position: relative;
+                        margin: 0 auto 0 auto;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                        text-align: center;
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                    }
+
+                    .social-circle li i {
+                        margin: 0;
+                        line-height: 40px;
+                        text-align: center;
+                    }
+                }
+
+                @media screen and (max-width: 350px) {
+                    ul.social-network li {
+                        display: inline;
+                        margin: 0 2px;
+                    }
+
+                    .social-circle li a {
+                        display: inline-block;
+                        position: relative;
+                        margin: 0 auto 0 auto;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                        text-align: center;
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                    }
+
+                    .social-circle li i {
+                        margin: 0;
+                        line-height: 40px;
+                        text-align: center;
+                    }
+                }
+            </style>
+            <script>
+                window.console = window.console || function (t) { };
+            </script>
+            <script>
+                if (document.location.search.match(/type=embed/gi)) {
+                    window.parent.postMessage("resize", "*");
+                }
+            </script>
+        </head>
+
+        <body translate="no">
+
+            <div class="footer bg-dark">
+                <a class="logo" href="index.html">
+                    <img src="images/probemini.png" alt>
+                </a><br><br>
+                <ul class="social-network social-circle">
+                    <li><a class="icoLinkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a class="icoFacebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="icoInstagram" href="https://www.instagram.com/theprobeiiitn/" title="Instagram"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a class="icoGithub" href="https://github.com/iiitnprobe/" title="Github"><i
+                                class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+
+
+
+        </body>
+
+        </html>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 text-light">� 2020-2021 The Probe:
+            <a href="#">Privacy</a>.<a href="#">Terms</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
 
                     <!-- Optional JavaScript -->
                     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
