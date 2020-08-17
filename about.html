@@ -66,11 +66,12 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Activities
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                         <a class="dropdown-item" href="cubs.html">Clubs</a>
-                        <a class="dropdown-item" href="workshops.html">Workshops</a>
-                        <a class="dropdown-item" href="seminars.html">Seminars</a>
+                        <a class="dropdown-item" href="sac.html">SAC</a>
+                        <a class="dropdown-item" href="spc.html">SPC</a>
+                        <a class="dropdown-item" href="cra.html">CRA</a>
 
                     </div>
                 </li>
@@ -136,10 +137,6 @@
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -179,10 +176,6 @@
                                 <button type="submit" class="btn btn-primary">Creat account</button>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -199,17 +192,17 @@
     <div class="container">
         <div class="container">
             <div class="row featurette d-flex justify-content-center align-items-center">
-             <div class="col-md-5">
-                    <center>
-                    <img class="img-fluid" src="images/prob.png" alt="">
-                </div>
+             
                 <div class="col-md-6">
                     <center>
                     <h2 class="featurette-heading"><span class="text-muted"><br>The Probe is the student media body of the Indian Institute of Information Technology, Nagpur run by students.</span></h2>
                     <p class="lead">PROBE aims to serve as a vital link between the student community and the administration through a news feed for the students, professors and alumni of the institute, featuring campus activities, department updates, recruitment information, Council happenings, alumni news, polls and interviews of various authorities like Director, Chief Warden, professors, distinguished alumni, dignitaries, and students representatives on various posts.</p>
 
                 </div>
-
+                <div class="col-md-5">
+                    <center>
+                    <img class="img-fluid" src="images/prob.png" alt="">
+                </div>
             </div>
 
         </div><br><br>
@@ -333,7 +326,7 @@
                 }
 
                 .social-circle i {
-                    color: #fff;
+                    color: rgba(0,0,0,1);
                     -webkit-transition: all 0.8s;
                     -moz-transition: all 0.8s;
                     -o-transition: all 0.8s;
@@ -344,6 +337,12 @@
                 .social-circle a {
                     background-color: #CCD8EA;
                 }
+                
+                .follow-us{
+                    color: white;
+                    font-weight: 700;
+                }
+
 
                 @media screen and (max-width: 500px) {
                     ul.social-network li {
@@ -415,10 +414,11 @@
         </head>
 
         <body translate="no">
-            <div class="footer bg-dark">
-                <a class="logo" href="index.html">
+            <div class="footer bg-dark my-3">
+                <!-- <a class="logo" href="index.html">
                     <img src="images/probemini.png" alt>
-                </a><br><br>
+                </a><br><br> -->
+                <p class="follow-us">Follow us on:</p>
                 <ul class="social-network social-circle">
                     <li><a class="icoLinkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a class="icoFacebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -437,8 +437,8 @@
         <!-- Footer Elements -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 text-light">� 2020-2021 The Probe:
-            <a href="#">Privacy</a>.<a href="#">Terms</a>
+        <div class="footer-copyright d-flex justify-content-center py-3 text-light" style="background-color: black;height: 40px;"> 
+            <p>Copyright &#169; 2020-2021 The Probe: <a href="#">  Privacy</a> <a href="#">Terms</a></p>
         </div>
         <!-- Copyright -->
 

@@ -68,8 +68,10 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                         <a class="dropdown-item" href="cubs.html">Clubs</a>
-                        <a class="dropdown-item" href="workshops.html">Workshops</a>
-                        <a class="dropdown-item" href="seminars.html">Seminars</a>
+                        <a class="dropdown-item" href="sac.html">SAC</a>
+                        <a class="dropdown-item" href="spc.html">SPC</a>
+                        <a class="dropdown-item" href="cra.html">CRA</a>
+
 
                     </div>
                 </li>
@@ -84,7 +86,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                         <a class="dropdown-item" href="about.html">About</a>
-                        <a class="dropdown-item" href="contact.html">Contact</a>
+                        <a class="dropdown-item" href="/contact.html">Contact</a>
 
                     </div>
                 </li>
@@ -134,10 +136,6 @@
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -174,12 +172,8 @@
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Creat account</button>
+                                <button type="submit" class="btn btn-primary">Create account</button>
                             </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
                         </div>
                     </div>
                 </div>
@@ -191,10 +185,10 @@
     <div class="container my-5">
         <div class="row">
             <div class="col-sm-3">
-                <a href="https://www.who.int/" class="href button btn btn-secondary">WHO About COVID-19</a>
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" class="href button btn btn-secondary">WHO About COVID-19</a>
             </div>
             <div class="col-sm-3">
-                <a href="https://covidvisualizer.com/" class="href button btn btn-secondary">World COVID count</a>
+                <a href="https://www.worldometers.info/coronavirus/" class="href button btn btn-secondary">World COVID count</a>
             </div>
         </div>
 
@@ -217,13 +211,9 @@
             <a class="btn btn-dark btn-lg btn-sm"
                 href="https://drive.google.com/open?id=151yIZ-LCexiW-9FNEA7sEnNsOf0KZ_xj" role="button">Get app</a>
             <br><br>
-            <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item"
-                    src="https://103.120.28.139/plesk-site-preview/iiitn.ac.in/https/192.168.77.168/images/academic/app_demo.mp4"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
+            <iframe src="https://drive.google.com/file/d/1ZKGFT5efVjola-IgVWwdMtSqq-JYrEK0/preview" class="demo-vid"></iframe>
 
+</div>
 
     </div>
 
@@ -241,9 +231,7 @@
             <a class="btn btn-dark btn-lg btn-sm"
                 href="https://kingekartik.github.io/SoDi-Social-Distancing-AR/SoDi.apk" role="button">Get app</a>
             <br><br>
-            <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XdA9lPb8h2o"></iframe>
-            </div>
+            <iframe src="https://www.youtube.com/embed/XdA9lPb8h2o" class="demo-vid"></iframe>
         </div>
 
     </div>
@@ -254,12 +242,8 @@
             <p class="lead"></p>
             <hr class="my-4">
             <p> </p>
-            <a class="btn btn-dark btn-lg btn-sm"
-                href="https://kingekartik.github.io/SoDi-Social-Distancing-AR/SoDi.apk" role="button">Get app</a>
             <br><br>
-            <div class="embed-responsive embed-responsive-4by3">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9ZlAYEdXvfw"></iframe>
-            </div>
+                <iframe  src="https://www.youtube.com/embed/9ZlAYEdXvfw"class="demo-vid"></iframe>
         </div>
 
     </div>
@@ -384,7 +368,7 @@
                 }
 
                 .social-circle i {
-                    color: #fff;
+                    color: black;
                     -webkit-transition: all 0.8s;
                     -moz-transition: all 0.8s;
                     -o-transition: all 0.8s;
@@ -395,11 +379,35 @@
                 .social-circle a {
                     background-color: #CCD8EA;
                 }
+                
+                .follow-us{
+                    color: white;
+                    font-weight: 500;
+                }
+                /* Video size */
+                .demo-vid{
+                    margin-left: 20%;
+                    width: 500px;
+                    height: 400px;
+                }
 
                 @media screen and (max-width: 500px) {
                     ul.social-network li {
                         display: inline;
                         margin: 0 5px;
+                    }
+                    .demo-vid{
+                        max-width: 300px;
+                        height: 300px;
+                        margin:0;
+                    }
+                }
+
+                @media screen and (max-width: 600px) {
+                    .demo-vid{
+                        max-width: 300px;
+                        height: 300px;
+                        margin:0;
                     }
                 }
 
@@ -468,9 +476,10 @@
         <body translate="no">
 
             <div class="footer bg-dark">
-                <a class="logo" href="index.html">
+                <!-- <a class="logo" href="index.html">
                     <img src="images/probemini.png" alt>
-                </a><br><br>
+                </a><br><br> -->
+                <p class="follow-us">Follow us on:</p>
                 <ul class="social-network social-circle">
                     <li><a class="icoLinkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a class="icoFacebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -489,8 +498,8 @@
         <!-- Footer Elements -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 text-light">� 2020-2021 The Probe:
-            <a href="#">Privacy</a>.<a href="#">Terms</a>
+        <div class="footer-copyright d-flex justify-content-center py-3 text-light" style="background-color: black;height: 40px;"> 
+            <p>Copyright &#169; 2020-2021 The Probe: <a href="#">  Privacy</a> <a href="#">Terms</a></p>
         </div>
         <!-- Copyright -->
 

@@ -11,57 +11,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Tantrafiesta</title>
-    <script>
-    var angle = 0;
-function galleryspin(sign) { 
-spinner = document.querySelector("#spinner");
-if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
-spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
-}
-    </script>
-    <style>
-    div#carousel { 
-  perspective: 1200px; 
-  background: #100000; 
-  padding-top: 10%; 
-  font-size:0; 
-  margin-bottom: 3rem; 
-  overflow: hidden; 
-}
-figure#spinner { 
-  transform-style: preserve-3d; 
-  height: 400px; 
-  transform-origin: 50% 50% -500px; 
-  transition: 1s; 
-} 
-figure#spinner img { 
-  width: 40%; max-width: 425px; 
-  position: absolute; left: 30%;
-  transform-origin: 50% 50% -500px;
-  outline:1px solid transparent; 
-}
-figure#spinner img:nth-child(1) { transform:rotateY(0deg); 
-}
-figure#spinner img:nth-child(2) { transform: rotateY(-45deg); }
-figure#spinner img:nth-child(3) { transform: rotateY(-90deg); }
-figure#spinner img:nth-child(4) { transform: rotateY(-135deg); }
-figure#spinner img:nth-child(5){ transform: rotateY(-180deg); }
-figure#spinner img:nth-child(6){ transform: rotateY(-225deg); }
-figure#spinner img:nth-child(7){ transform: rotateY(-270deg); }
-figure#spinner img:nth-child(8){ transform: rotateY(-315deg); }
-div#carousel ~ span { 
-  color: #fff; 
-  margin: 5%; 
-  display: inline-block; 
-  text-decoration: none; 
-  font-size: 2rem; 
-  transition: 0.6s color; 
-  position: relative; 
-  margin-top: -6rem; 
-  border-bottom: none; 
-  line-height: 0; }
-div#carousel ~ span:hover { color: #888; cursor: pointer; }
-</style>
+    
 </head>
 
 <body>
@@ -117,8 +67,10 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                         <a class="dropdown-item" href="cubs.html">Clubs</a>
-                        <a class="dropdown-item" href="workshops.html">Workshops</a>
-                        <a class="dropdown-item" href="seminars.html">Seminars</a>
+                        <a class="dropdown-item" href="sac.html">SAC</a>
+                        <a class="dropdown-item" href="spc.html">SPC</a>
+                        <a class="dropdown-item" href="cra.html">CRA</a>
+
 
                     </div>
                 </li>
@@ -185,10 +137,6 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -228,10 +176,6 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
                                 <button type="submit" class="btn btn-primary">Creat account</button>
                             </form>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                        </div>
                     </div>
                 </div>
             </div>
@@ -239,37 +183,242 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
         </div>
     </nav>
 
-<section>
-	<div class="container ">
+<div class="container my-5">
 
-				<h5 style="text-align: center; ">
-				<img src="images/TantraFiesta.png" style=" width: 500px; height: 700px; vertical-align: middle; border-style: none;"></h5>
-<h4>    <p>The Tantrafiesta is the national level technical fest of IIITN. It is one of the most awaited events of Our college This technical fest comprises of different technical events where students can have fun as well as get a chance to showcase their practical talent of their field and not just limit themselves to bookish knowledge. Also during this fest  industry experts, entrepreneurs,alumni coming from various fields are invited for guest lectures and keynotes</p></h4>
-<br>
-</div>	
+        
+            <img src="images/Tf.jpg" style="padding: 3em;" class="img-fluid mx-auto d-block" alt="Responsive image"">
+        <h4>
+            <p>The Tantrafiesta is the national level technical fest of IIITN. It is one of the most awaited events of
+                Our college This technical fest comprises of different technical events where students can have fun as
+                well as get a chance to showcase their practical talent of their field and not just limit themselves to
+                bookish knowledge. Also during this fest industry experts, entrepreneurs,alumni coming from various
+                fields are invited for guest lectures and keynotes</p>
+        </h4>
+        <br>
+        <div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto aos-init aos-animate"
+            data-aos="fade-up">
+            <h2 class="mb-5">Featured Events</h2>
+        </div>
+    </div>
+   
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-4 d-flex justify-content-center my-4">
 
-<section class="container">
-<div class="site-section-heading text-center mb-5 w-border col-md-6 mx-auto aos-init aos-animate"
-                    data-aos="fade-up">
-                    <h2 class="mb-5">Featured Events</h2>
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER1.jpg">
+                            <img src="images/POSTER1.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>KARYANEETI</h3>
+                    </div>
+                    <p class="card-text">The event is about presentation of your business idea to a panel of
+                        entrepreneurs and investors.
+                        To encourage the spirit of entrepreneurship and problem solving attitude
+                        among youth this is the platform for business plan aspiring students.</p>
                 </div>
-<div id="carousel">
-  <figure id="spinner">
-    <img src="images/POSTER1.jpg" alt>
-    <img src="images/Poster2.jpg" alt>
-    <img src="images/Poster3.jpg" alt>
-    <img src="images/POSTER4.jpg" alt>
-    <img src="images/POSTER5.jpg" alt>
-    <img src="images/POSTER6.jpg" alt>
-    <img src="images/POSTER7.jpg" alt>
-    <img src="images/POSTER8.jpg" alt>
-  </figure>
-</div>
+            </div>
+            
+            <div class="col-sm-4 d-flex justify-content-center my-4">
 
-<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
-<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
-    
-    </section>
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER2.jpg">
+                            <img src="images/Poster2.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>CODDICTION</h3>
+                    </div>
+                    <p class="card-text">All the participants are given programming problems which require
+                        some tricky complex algorithm to solve.
+                        The questions can be solved in any programming language.
+                        This is helpful for enhancing problem solving skills for students
+                        and also to write better and cleaner code.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER3.jpg">
+                            <img src="images/Poster3.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>ELECTROGIEST</h3>
+                    </div>
+                    <p class="card-text">This event is all about testing technical skills of electrical engineering,
+                        analog electronics and
+                        digital electronics.
+                        The individual team needs to implement the circuit according to the problem
+                        given i.e. live circuit out of basic components such as diode, resistor and etc.
+                        to get the desired output.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER4.jpg">
+                            <img src="images/POSTER4.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>MAZE RUNNER</h3>
+                    </div>
+                    <p class="card-text">Maze Runner is an event based on the black line follower robot.
+                        The robot will have to sense the black path and move accordingly.
+                        It is of 2 rounds Black Hole and the Ultimate Maze where
+                        Optimisation and speed will get you the win.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER5.jpg">
+                            <img src="images/POSTER5.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>GRAPHOMETRY</h3>
+                    </div>
+                    <p class="card-text">The event is about graphic designing.This is a solo event
+                        where participants will be given a particular theme and will be
+                        judged accordingly.
+                        It serves to convey your ideas in a way that is not only effective, but also beautiful. </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER6.jpg">
+                            <img src="images/POSTER6.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>QUIZ</h3>
+                    </div>
+                    <p class="card-text">Quiz is an event based on the educational theme of the space. The participants
+                        should have
+                        active knowledge about the space in general and events happening in various space
+                        organizations specially emphasizing on ISRO in particular.
+                        This is to check your GK,awareness skills and patience and how quick you are.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER7.jpg">
+                            <img src="images/POSTER7.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>CONTRIVANCE</h3>
+                    </div>
+                    <p class="card-text">The event is about designing a contraption based on which the given task could
+                        be
+                        accomplished. Task is given at the time of the event at the venue.
+                        This competition is intended to help the students to think creatively
+                        and coming up with good results that too from the limitations.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER9.png">
+                            <img src="images/POSTER9.png" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>TRAVERSE ACTION</h3>
+                    </div>
+                    <p class="card-text">Can you Google faster than everyone?
+                        This event tests your overall searching skills and googling skills.
+                        Questions are asked in a twisted manner and your skills on finding the answers will be tested.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center my-4">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER1.jpg">
+                            <img src="images/POSTER1.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>WEAVE THE WEB</h3>
+                    </div>
+                    <p class="card-text">In this event, the technical skills of your Web Designing are tested and the
+                        most
+                        efficiently working model with less amount of code will be awarded. In round1, a web
+                        page will be displayed and those who create almost identical page with less code will be
+                        the winner. In the next round, they have to design a responsive website based on given
+                        information and resources (images, links etc.) and you will be judged on page
+                        Functionality and UI/UX design.
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center m">
+
+                <div class="card" style="width: 23rem;">
+                    <div class="event">
+                        <a href="images/POSTER1.jpg">
+                            <img src="images/POSTER1.jpg" alt="Image" class="img-fluid">
+                        </a>
+                        <h3>REJUNEVATE</h3>
+                    </div>
+                    <p class="card-text">REJUVENATE
+                        The event is all about creating best out of waste.
+                        In this, the technical skills of your creativity will be tested and
+                        the most innovative model with the greatest number of components
+                        used will be awarded.In simple words,Don't think out of the box, think what you can do with the
+                        box!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <br>
+    <div class="container my-5">
+        <h3>Pre-Events:</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 30rem;">
+                    <img src="images/blood.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Blood Donation Camp</h4>
+                        <p class="card-text">Blood donation is the pre-event of tantrafiesta.
+                            This 2 days camp was organized in the institute under the team of doctors along with
+                            free dental and eye check-up
+                            as a small contribution to the social welfare.
+                            Blood donation is the best gift that you can give to someone.Similarly the aim of the
+                            camp was to encourage the youth to
+                            donate blood.Even the faculty members showed enthusiasm to make this event a success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6 d-flex justify-content-center">
+                <div class="card" style="width: 30rem;">
+                    <img src="images/IotWave-01.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>IoT Wave</h4>
+                        <p class="card-text">IoTWave" is the workshop organized as a pre-event of tantrafiesta.
+                            Aim behind this workshop is to introduce the students to this cutting edge iot
+                            technology
+                            and its various sub-fields.
+                            This workshop ensures the Knowledge and understanding of fundamental IOT paradigms
+                            both with respect to software and hardware added up with the certificate of
+                            participation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
 <!-- Footer -->
     <footer class="page-footer font-small bg-dark">
 
@@ -387,7 +536,7 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
                 }
 
                 .social-circle i {
-                    color: #fff;
+                    color: rgba(0,0,0,1);
                     -webkit-transition: all 0.8s;
                     -moz-transition: all 0.8s;
                     -o-transition: all 0.8s;
@@ -398,6 +547,12 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
                 .social-circle a {
                     background-color: #CCD8EA;
                 }
+                
+                .follow-us{
+                    color: white;
+                    font-weight: 700;
+                }
+
 
                 @media screen and (max-width: 500px) {
                     ul.social-network li {
@@ -471,9 +626,10 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
         <body translate="no">
 
             <div class="footer bg-dark">
-                <a class="logo" href="index.html">
+                <!-- <a class="logo" href="index.html">
                     <img src="images/probemini.png" alt>
-                </a><br><br>
+                </a><br><br> -->
+                <p class="follow-us">Follow us on:</p>
                 <ul class="social-network social-circle">
                     <li><a class="icoLinkedin" href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a class="icoFacebook" href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -492,8 +648,8 @@ div#carousel ~ span:hover { color: #888; cursor: pointer; }
         <!-- Footer Elements -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 text-light">� 2020-2021 The Probe:
-            <a href="#">Privacy</a>.<a href="#">Terms</a>
+        <div class="footer-copyright d-flex justify-content-center py-3 text-light" style="background-color: black;height: 40px;"> 
+            <p>Copyright &#169; 2020-2021 The Probe: <a href="#">  Privacy</a> <a href="#">Terms</a></p>
         </div>
         <!-- Copyright -->
 
